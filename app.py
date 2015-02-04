@@ -13,10 +13,6 @@ def get_params():
               'user': os.environ.get('user', ''),
               'password': os.environ.get('password', ''),
               'dbhost': os.environ.get('dbhost', '')}
-    #params = {'dbname': 'arbor_demo',
-    #          'user': 'demo',
-    #          'password': 'demo_2014',
-    #          'dbhost': '97f8f462ee7e1c3b7ffeb448db096c7ec3ec8233.rackspaceclouddb.com'}
     return params
 
 
